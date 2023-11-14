@@ -61,7 +61,7 @@ class Star {
   }
   
   function setup() {
-    createCanvas(windowWidth, (2*windowHeight));
+    createCanvas(windowWidth, (1.7*windowHeight));
     
     canvas.addEventListener('mousemove', onMouseMove);
 
