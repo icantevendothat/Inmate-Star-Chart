@@ -89,13 +89,13 @@ class Star {
         tooltip.classList.remove('hidden');
             tooltip.innerHTML = `
             <h2>Star Data</h2>
-            <p><strong>Inmate ID:</strong> ${data.inmateid}</p>
-            <p><strong>Admitted Date:</strong> ${data.admitted_dt}</p>
-            <p><strong>Custody Level:</strong> ${data.custody_level}</p>
-            <p><strong>Under Mental Observation?:</strong> ${data.bradh}</p>
-            <p><strong>Race:</strong> ${data.race}</p>
-            <p><strong>Gender:</strong> ${data.gender}</p>
-            <p><strong>Age:</strong> ${data.age}</p>
+            <p><strong>Inmate ID:</strong> ${hoveredStar.data.inmateid}</p>
+            <p><strong>Admitted Date:</strong> ${hoveredStar.data.admitted_dt}</p>
+            <p><strong>Custody Level:</strong> ${hoveredStar.data.custody_level}</p>
+            <p><strong>Under Mental Observation?:</strong> ${hoveredStar.data.bradh}</p>
+            <p><strong>Race:</strong> ${hoveredStar.data.race}</p>
+            <p><strong>Gender:</strong> ${hoveredStar.data.gender}</p>
+            <p><strong>Age:</strong> ${hoveredStar.data.age}</p>
     `;
     tooltip.style.left = mouseX + 'px';
     tooltip.style.top = mouseY + 'px';
