@@ -13,6 +13,9 @@ body {
   margin: 0;
   padding: 0;
   overflow-y: scroll;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 /* below code until line 21 from Dora <3  */
